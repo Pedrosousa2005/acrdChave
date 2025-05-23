@@ -2,6 +2,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { enviarInscricao } from "@/lib/enviarInscricao";
+import { Metadata } from "next";
 
 type FormData = {
   nome: string;
@@ -15,6 +16,11 @@ type FormData = {
   aceitaRegulamento: boolean;
   aceitaPolitica: boolean;
   jaPagou: number;
+};
+
+
+export const metadata: Metadata = {
+  title: "Inscrição | Acrd Chave",
 };
 
 
