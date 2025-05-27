@@ -108,7 +108,7 @@ export default function Home() {
       <div className="max-w-7xl mx-auto flex flex-col items-center justify-center">
         <main className="w-full max-w-2xl space-y-8">
           <h1 className="text-4xl font-bold text-center sm:text-left text-gray-900">
-            Inscrição para o Passeio de Bicicleta
+            Inscrição para o 1º Passeio GPS ACRD Chave
           </h1>
           <form
       onSubmit={handleSubmit}
